@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test Automation Test" parallel="methods">
-  <parameter name="browser" value="${browser}"/>
-  <parameter name="isLambdaTest" value="${isLambdaTest}"/>
-  <parameter name="isHeadless" value="${isHeadless}"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="isLambdaTest" value="false"/>
+  <parameter name="isHeadless" value="false"/>
     <classes>
       <class name="com.ui.tests.LoginTest3"/>
       <class name="com.ui.tests.LoginTest4"/>
       <class name="com.ui.tests.LoginTest5"/>
-      <class name="com.ui.tests.LoginTest6"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

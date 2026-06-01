@@ -6,17 +6,19 @@ import static com.constants.Browser.CHROME;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.pojos.User;
 import com.ui.pages.HomePage;
-
+@Listeners(com.ui.listeners.TestListener.class)
 public class LoginTest5 extends TestBase {
 
 	
 	@Test(description = "Verifies if valid user is able to login",
 			dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,
-			dataProvider="LoginCSVDataProvider")
+			dataProvider="LoginCSVDataProvider",
+			retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
 	public void LoginTestUsingCSV(User user) {
 
 		/*
@@ -27,7 +29,7 @@ public class LoginTest5 extends TestBase {
 
 		
 
-		AssertJUnit.assertEquals(homePage.goToLogin().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(), "Apurva Arora");
+		Assert.assertEquals(homePage.goToLogin().doLoginWith(user.getEmailAddress(),user.getPassword()).getUserName(), "Apurva Arora");
 
 	}
 

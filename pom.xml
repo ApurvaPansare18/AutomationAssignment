@@ -28,12 +28,13 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
-
+<!--
                 <systemPropertyVariables>
                     <browser>${browser}</browser>
                     <isLambdaTest>${isLambdaTest}</isLambdaTest>
                     <isHeadless>${isHeadless}</isHeadless>
                 </systemPropertyVariables>
+                -->
 
             </configuration>
         </plugin>
