@@ -1,0 +1,71 @@
+2026-06-02 18:29:32 [main] INFO com.ui.listeners.TestListener Test Suited Started 
+2026-06-02 18:29:37 [main] INFO com.ui.listeners.TestListener LoginTestWithHardcodedData 
+2026-06-02 18:29:37 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:37 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:38 [main] INFO com.ui.listeners.TestListener LoginTestWithHardcodedData PASSED 
+2026-06-02 18:29:41 [main] INFO com.ui.listeners.TestListener LoginTestUsingJSON 
+2026-06-02 18:29:41 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:41 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:42 [main] INFO com.ui.listeners.TestListener LoginTestUsingJSON PASSED 
+2026-06-02 18:29:45 [main] INFO com.ui.listeners.TestListener LoginTestUsingCSV 
+2026-06-02 18:29:45 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:45 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:45 [main] WARN com.ui.listeners.TestListener LoginTestUsingCSV SKIPPED 
+2026-06-02 18:29:49 [main] INFO com.ui.listeners.TestListener LoginTestUsingCSV 
+2026-06-02 18:29:49 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:49 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:49 [main] WARN com.ui.listeners.TestListener LoginTestUsingCSV SKIPPED 
+2026-06-02 18:29:52 [main] INFO com.ui.listeners.TestListener LoginTestUsingCSV 
+2026-06-02 18:29:52 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:52 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:53 [main] INFO com.ui.listeners.TestListener LoginTestUsingCSV PASSED 
+2026-06-02 18:29:56 [main] INFO com.ui.listeners.TestListener LoginTestUsingExcel 
+2026-06-02 18:29:56 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:29:56 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:29:57 [main] INFO com.ui.listeners.TestListener LoginTestUsingExcel PASSED 
+2026-06-02 18:30:00 [main] INFO com.ui.listeners.TestListener LoginTestUsingExcel 
+2026-06-02 18:30:00 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:30:00 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:01 [main] WARN com.ui.listeners.TestListener LoginTestUsingExcel SKIPPED 
+2026-06-02 18:30:03 [main] INFO com.ui.listeners.TestListener LoginTestUsingExcel 
+2026-06-02 18:30:03 [main] INFO com.ui.listeners.TestListener Verifies if valid user is able to login 
+2026-06-02 18:30:03 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:04 [main] ERROR com.ui.listeners.TestListener LoginTestUsingExcel FAILED 
+2026-06-02 18:30:04 [main] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']"}
+  (Session info: chrome=148.0.7778.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b3d54aa893f69499acf827da3d1b444e, findElement {using=xpath, value=//a[@title='View my customer account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: /var/folders/cs/1s54yysn5c3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57512}, goog:processID: 48245, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57512/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b3d54aa893f69499acf827da3d1b444e 
+2026-06-02 18:30:05 [main] INFO com.ui.listeners.TestListener LoginTestUsingInvalidCredentials 
+2026-06-02 18:30:05 [main] INFO com.ui.listeners.TestListener Verifies if proper error message is shown for Invalid credentials 
+2026-06-02 18:30:05 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:07 [main] INFO com.ui.listeners.TestListener LoginTestUsingInvalidCredentials PASSED 
+2026-06-02 18:30:11 [main] INFO com.ui.listeners.TestListener addProductToCart 
+2026-06-02 18:30:11 [main] INFO com.ui.listeners.TestListener Verifies if address gets added succesfully 
+2026-06-02 18:30:11 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:14 [main] INFO com.ui.listeners.TestListener addProductToCart PASSED 
+2026-06-02 18:30:17 [main] INFO com.ui.listeners.TestListener searchProductResultTest 
+2026-06-02 18:30:17 [main] INFO com.ui.listeners.TestListener verifies list of products user is searching for 
+2026-06-02 18:30:17 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:18 [main] ERROR com.ui.listeners.TestListener searchProductResultTest FAILED 
+2026-06-02 18:30:18 [main] ERROR com.ui.listeners.TestListener expected [true] but found [false] 
+2026-06-02 18:30:22 [main] INFO com.ui.listeners.TestListener searchProductTest 
+2026-06-02 18:30:22 [main] INFO com.ui.listeners.TestListener Verifies if products are searched properly 
+2026-06-02 18:30:22 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:22 [main] INFO com.ui.listeners.TestListener searchProductTest PASSED 
+2026-06-02 18:30:26 [main] INFO com.ui.listeners.TestListener addMyAddress 
+2026-06-02 18:30:26 [main] INFO com.ui.listeners.TestListener Verifies if address gets added succesfully 
+2026-06-02 18:30:26 [main] INFO com.ui.listeners.TestListener [] 
+2026-06-02 18:30:57 [main] ERROR com.ui.listeners.TestListener addMyAddress FAILED 
+2026-06-02 18:30:57 [main] ERROR com.ui.listeners.TestListener Expected condition failed: waiting for element found by By.xpath: //a[@title='Add my first address'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Add my first address']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: /var/folders/cs/1s54yysn5c3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57736}, goog:processID: 48364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57736/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60e4a29953614fcc89ccefe5a3b8f3a0 
+2026-06-02 18:31:02 [main] INFO com.ui.listeners.TestListener Test Suited Ended 

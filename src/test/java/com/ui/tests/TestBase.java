@@ -41,10 +41,10 @@ public class TestBase {
 	}
 
 	@AfterMethod()
-	public void tearDown() {
-		if (isLambdaTest) {
-			LambdaTestUtility.quitSession();
-		} else {
+public void tearDown() {
+	if (isLambdaTest) {
+		LambdaTestUtility.quitSession();
+	} else {
 			homePage.quit();
 		}
 	}

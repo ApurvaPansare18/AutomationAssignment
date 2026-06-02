@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test Automation Test" parallel="methods">
-  <parameter name="browser" value="chrome"/>
-  <parameter name="isLambdaTest" value="false"/>
-  <parameter name="isHeadless" value="false"/>
-    <classes>
-      <class name="com.ui.tests.LoginTest3"/>
-      <class name="com.ui.tests.LoginTest4"/>
-      <class name="com.ui.tests.LoginTest5"/>
-     
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test thread-count="5" name="Test Automation Test" >
+		<parameter name="browser" value="chrome" />
+		<parameter name="isLambdaTest" value="false" />
+		<parameter name="isHeadless" value="false" />
+		<classes>
+			<class name="com.ui.tests.LoginTest3" />
+			<class name="com.ui.tests.LoginTest4" />
+			<class name="com.ui.tests.LoginTest5" />
+			<class name="com.ui.tests.LoginTest6" />
+			<class name="com.ui.tests.LoginTestWithInvalidCreds" />
+			<class name="com.ui.tests.ProductCheckoutTest" />
+			<class name="com.ui.tests.SearchPrductTest" />
+			<class name="com.ui.tests.AddMyAddressTest" />
+
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
